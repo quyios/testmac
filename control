@@ -1,0 +1,8 @@
+Package: com.amywhile.macspoof
+Name: MacSpoof
+Version: 0.2.2
+Architecture: iphoneos-arm64
+Description: Per-network private Wi-Fi MAC randomizer for jailbroken iOS
+Maintainer: local-build
+Section: Tweaks
+Depends: mobilesubstrate
