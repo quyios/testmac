@@ -8,7 +8,7 @@ jobs:
     runs-on: macos-latest
     steps:
       - uses: actions/checkout@v4
-      - uses: AnemoneTweaks/theos-action@master
+      - uses: Randomblock1/theos-action@v1
         with:
           theos-src: https://github.com/theos/theos.git
       - run: make package FINALPACKAGE=1
