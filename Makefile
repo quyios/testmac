@@ -1,5 +1,5 @@
 ARCHS = arm64
-TARGET = iphone:clang:16.0:14.0
+TARGET = iphone:clang:latest:14.0
 PACKAGE_VERSION = 0.2.2
 include $(THEOS)/makefiles/common.mk
 TWEAK_NAME = MacSpoof
